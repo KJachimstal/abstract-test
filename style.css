@@ -9,10 +9,92 @@ body {
 
 .container {
   width: 1320px;
-  background-color: #ccc;
+  height: 4000px;
+  background-color: #ffff;
 }
 
-.background {
+.container_top {
+  height: 600px;
+  background-color: #f6f9fb;
+}
+
+.bubble21 {
   position: relative;
-  right: -755px;
+  left: 820px;
+  width: 500px;
+}
+
+.banner {
+  position: relative;
+  width: 800px;
+  top: -90px;
+}
+
+.baner_text {
+  position: relative;
+  padding: 20px;
+  width: 600px;
+  top: -450px;
+}
+
+.baner_title {
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.darkmode {
+  position: fixed;
+  background-color: #5965e9;
+  width: 70px;
+  height: 70px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  top: 250px;
+  display: flex;
+  align-items: center;
+  z-index: 99;
+}
+
+.darkmode_icon {
+  width: 25px;
+  margin-left: 22px;
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  padding: 25px 20px 0px 20px;
+  justify-content: flex-end;
+  z-index: 99;
+}
+
+.header_logo {
+  margin-right: 130px;
+}
+
+.header_item {
+  margin: 15px 20px 15px 20px;
+  font-weight: 500;
+  font-size: 15px;
+  display: flex;
+}
+
+.header_item_arrow {
+  width: 20px;
+  height: 19px;
+  margin: 3px 0px 0px 1px;
+}
+
+.header_menu {
+  margin: 5px 20px 15px 40px;
+  width: 40px;
+  height: 40px;
+  background-color: #ecf2f6;
+  border-radius: 20px;
+}
+
+.header_menu_icon {
+  width: 18px;
+  margin: 11px
 }
