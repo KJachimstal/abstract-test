@@ -9,8 +9,8 @@ body {
 
 .container {
   width: 1320px;
-  height: 4000px;
-  background-color: #ffff;
+  /* height: 4000px; */
+  background-color: red;
 }
 
 .container_top {
@@ -33,8 +33,10 @@ body {
 .baner_text {
   position: relative;
   padding: 20px;
-  width: 600px;
-  top: -450px;
+  width: 400px;
+  top: -535px;
+  font-size: 12px;
+  z-index: 3;
 }
 
 .baner_title {
@@ -50,7 +52,7 @@ body {
   height: 70px;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
-  top: 250px;
+  top: 200px;
   display: flex;
   align-items: center;
   z-index: 99;
@@ -98,3 +100,18 @@ body {
   width: 18px;
   margin: 11px
 }
+
+.line4 {
+  position: relative;
+  top: -110px;
+}
+
+.bubble9 {
+  position: relative;
+  top: -710px;
+}
+
+.container_about {
+  display: flex;
+}
+
