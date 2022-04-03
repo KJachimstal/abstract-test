@@ -115,8 +115,9 @@ body {
 }
 
 .container_about {
+  margin-top: 150px;
   display: flex;
-  position: absolute;
+  position: relative;
 }
 
 h7 {
@@ -163,16 +164,19 @@ h7 {
 }
 
 .earth {
+  display: inline;
   width: 15px;
   margin-right: 7px;
 }
 
 .strategy {
+  display: inline;
   width: 17px;
   margin-right: 4px;
 }
 
 .design {
+  display: inline;
   width: 15px;
   margin-right: 7px;
 }
@@ -180,7 +184,7 @@ h7 {
 .left {
   background-color: #fff;
   width: 60%;
-  padding: 15px;
+  padding: 10px 0px 0px 65px;
 }
 
 .right {
