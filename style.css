@@ -494,3 +494,104 @@ img {
   width: 20px;
   height: 20px;
 }
+
+.social_bar {
+  padding: 0px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.main_footer_section {
+  display: flex;
+  margin-bottom: 15px;
+  height: 350px;
+  box-shadow: 0 4px 6px -5px gray;
+}
+
+.left_section {
+  height: 200px;
+  width: 45%;
+}
+
+.right_section {
+  height: 200px;
+  width: 55%;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+h4 {
+  margin: 40px 40px 30px 40px;
+}
+
+h5 {
+  margin-left: 40px;
+  font-weight: 500;
+  color: #b0aeae;
+}
+
+.services {
+  margin-right: 60px;
+}
+
+.resources {
+  margin-right: 30px;
+}
+
+.left_section {
+  padding: 30px;
+  border-right:2px solid rgba(81, 81, 81, 0.1) ;
+}
+
+.left_section_container {
+  width: 500px;
+}
+
+.subscribe {
+  margin-top: 50px;
+  width: 450px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.05);
+}
+
+.subscribe_button {
+  display: flex;
+  background-color:#5965e9;
+  border-radius: 7px;
+  justify-content: flex-end;
+  color: #fff;
+  padding: 10px 20px 10px 20px;
+}
+
+.emial_inbox {
+  display: flex;
+  width: 300px;
+  align-items: center;
+  color: #b0aeae;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.email {
+  margin-right: 10px;
+}
+
+.footer_end_section {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #b0aeae;
+  padding: 15px;
+}
+
+.footer_end_section_left {
+  display: flex;
+}
+
+.copyright {
+  margin-right: 5px;
+}
