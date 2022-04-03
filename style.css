@@ -391,3 +391,81 @@ img {
 .project_container_content {
   margin-bottom: 100px;
 }
+
+.together_container {
+  position: static;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 950px;
+  
+}
+
+.together_background {
+  position: absolute;
+  background-color: #5957e9;
+  height: 845px;
+  width: 100%;
+  justify-content: center;
+  box-shadow: 0 4px 6px -5px gray;
+}
+
+.together_title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 150px;
+}
+
+.together_project {
+  position: relative;
+  background-color: #fff;
+  width: 200px;
+  padding: 20px;
+  margin-top: 90px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  color: #5957e9;
+}
+
+.together_photo {
+  position: absolute;
+}
+
+.bubble12 {
+  left: 450px;
+}
+
+.bubble13 {
+  left: 1000px;
+  top: 300px;
+}
+
+.bubble14 {
+  left: 1200px;
+  top: 450px;
+}
+
+.bubble16 {
+  left: 430px;
+  top: 150px;
+}
+
+.chat {
+  left: 470px;
+  top: 455px;
+}
+
+.bill {
+  left: 930px;
+  top: 470px;
+}
+
+.laptop {
+  left: 170px;
+  top: 505px;
+}
