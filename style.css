@@ -54,6 +54,7 @@ body {
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   top: 200px;
+  left: 0px;
   display: flex;
   align-items: center;
   z-index: 99;
@@ -239,8 +240,13 @@ h7 {
 .design_container {
   background-color: #ecf2f6;
   width: 100%;
-  padding: 80px 0px 0px 0px;
   position: relative;
+  padding-top: 120px;
+  margin-top: 90px;
+}
+
+.design_content {
+  margin-bottom: 100px;
 }
 
 h1 {
@@ -260,7 +266,8 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: absolute;
+  position: relative;
+  margin-bottom: 80px;
 }
 
 .element {
@@ -276,19 +283,23 @@ h3 {
   margin-bottom: 20px;
 }
 
+.element_right:last-child {
+  padding-bottom: 100px;
+}
+
 .element_content {
   padding: 25px;
   width: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: absolute;
+  position: relative;
 }
 
 .photo {
   background-color: #fff;
   border-radius: 20px;
-  position: absolute;
+  position: relative;
 }
 
 .photo_image {
@@ -297,16 +308,30 @@ h3 {
 
 .bubble24 {
   position: absolute;
+  top: 0px;
 }
 
 .bubble23 {
   position: absolute;
+  right: 0px;
+  top: 310px;
 }
 
-.line11 {
+.line_process {
   height: 350px;
   position: absolute;
-  margin-bottom: 200px;
+}
+
+.line_discover {
+  top: 400px;
+}
+
+.line_prototype {
+  top: 800px;
+}
+
+.line_test {
+  top: 1200px;
 }
 
 img {
