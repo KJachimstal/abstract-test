@@ -68,13 +68,21 @@ body {
 .header {
   position: fixed;
   display: flex;
-  padding: 25px 20px 0px 20px;
+  width: 1320px;
   justify-content: flex-end;
   z-index: 99;
 }
 
+#header {
+
+}
+
 .header_logo {
-  margin-right: 130px;
+  margin: 10px 130px 0px 10px;
+}
+
+.digital {
+  width: 140px;
 }
 
 .header_item {
@@ -82,6 +90,7 @@ body {
   font-weight: 500;
   font-size: 15px;
   display: flex;
+  align-items: center;
 }
 
 .header_item_arrow {
@@ -91,7 +100,7 @@ body {
 }
 
 .header_menu {
-  margin: 5px 20px 15px 40px;
+  margin: 15px 20px 15px 40px;
   width: 40px;
   height: 40px;
   background-color: #ecf2f6;
@@ -483,6 +492,7 @@ img {
   align-items: center;
   justify-content: center;
   border: none;
+  background-color: none;
 }
 
 #scrollToTopButton:hover {
